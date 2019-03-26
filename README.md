@@ -27,7 +27,9 @@ conda activate ml
 
 python3 VideoMaker.py -d desktop_path
 
--d is /Desktop, and not /Desktop/
+-d should end in /Desktop, and not /Desktop/
 
 
-# Contact: Manuel Cortés Batet batetcortesm@gmail.com
+# Contact: 
+
+Manuel Cortés Batet batetcortesm@gmail.com
