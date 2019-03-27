@@ -7,6 +7,15 @@ programa que buscara todas las carpetas del escritorio y cogera las imagenes y h
 #  Requirements
 
 opencv
+but to replicate, do 
+
+conda env create -f environment.yml
+
+then 
+
+conda activate ml
+
+
 
 # To run it:
 
