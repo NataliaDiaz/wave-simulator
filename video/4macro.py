@@ -155,11 +155,11 @@ fold = 1
 for random_seed1 in wave_scale:
 	for wind_velocity1 in wind_velocity:
 		for wave_scale1 in wave_scale:
-			for choppiness1 in choppiness:
+			for choppiness in choppiness:
 				ocean.modifiers["Ocean"].wave_scale = wave_scale1
 				ocean.modifiers["Ocean"].wind_velocity = wind_velocity1			
 				ocean.modifiers["Ocean"].random_seed = random_seed1	   
-				ocean.modifiers["Ocean"].choppiness = choppiness1
+				ocean.modifiers["Ocean"].choppiness = choppiness
 
 				if RENDER == True:
 					#folder creation and managing
